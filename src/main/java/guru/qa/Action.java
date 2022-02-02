@@ -15,5 +15,17 @@ public class Action {
         honda.carStatistic();
         honda.trevel100Miles();
         honda.carStatistic();
+
+        HelloWorld.Car mazda = new HelloWorld.Car();
+        mazda.age = 1;
+        mazda.model = "Mazda";
+        mazda.carFrom = "Europe";
+        mazda.color = "Black";
+        mazda.fuelGasTank = 24.4d;
+        mazda.carMileage = 100000;
+
+        mazda.carStatistic();
+        mazda.trevel100Miles();
+        mazda.carStatistic();
     }
 }
